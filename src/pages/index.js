@@ -1,6 +1,5 @@
 import React from 'react'
 import Link from 'gatsby-link'
-import { graphql } from 'gatsby';
 
 const IndexPage = () => (
   <div>
@@ -11,9 +10,5 @@ const IndexPage = () => (
   </div>
 )
 
-// export const query = graphql`
-//   query IndexPageQuery {
-//   }
-// `
 
 export default IndexPage

@@ -7,11 +7,11 @@ module.exports = {
     {
       resolve: `gatsby-source-mongodb`,
       options: {
-        dbName: `gatsby-test`,
+        dbName: `gatsby`,
         collection: [`companies`, `contacts`],
         server: {
-          address: `ds119052.mlab.com`,
-          port: 19052
+          address: `ds235239.mlab.com`,
+          port: 35239
         },
         auth: {
           user: `admin`,
